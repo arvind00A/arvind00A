@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Arvind Kumar</h1>
-<h3 align="center">I'm passionate Java fullstack developer.</h3>
+<h3 align="center">I'm passionate Java fullstack developer</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=arvind01a&label=Profile%20views&color=0e75b6&style=flat" alt="arvind00A" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=arvind00A&label=Profile%20views&color=0e75b6&style=flat" alt="arvind00A" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arvind00A" alt="arvind00A" /></a> </p>
 
@@ -13,7 +13,7 @@
 
 - 💬 Ask me about **C,Core Java,Advanced Java,SQL,HTML,CSS,JavaScript,Spring**
 
-- 📫 How to reach me **arvind.kumar208414@gmail.com**
+- 📫 How to reach me **arvind.kr0024@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
