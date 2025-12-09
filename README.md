@@ -16,7 +16,7 @@
 
 <ul>
         <li>🎯Programming Languages</li>
-        <li>C#</li>
+        <ul><li>C#</li></ul>
         <li>🎯Frameworks & Libraries</li>
         <ul>
             <li>📌Frontend</li>
