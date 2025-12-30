@@ -9,7 +9,7 @@
 ### 📫 Let's Connect me:
 <p align="left">
 <a href="https://twitter.com/arvind01A" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="arvind01A" height="30" width="40" /> twitter.com/arvind01A </a> <br><br>
-<a href="https://github.com/arvind01A" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="arvind01A" height="30" width="40" /> github.com/arvind00A</a> <br> <br>
+<a href="https://github.com/arvind01A" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="arvind00A" height="30" width="40" /> github.com/arvind00A</a> <br> <br>
 <a href="https://linkedin.com/in/arvind00" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="arvind00" height="30" width="40" /> linkedin.com/in/arvind00)</a> <br><br>
  <a href="arvind.kr0024@gmail.com" target=blank"><img align="center" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png" alt="gmail.com" height="30" width="60" /> arvind.kr0024@gmail.com </a>
 </p> 
