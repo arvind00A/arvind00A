@@ -20,11 +20,11 @@ jobs:
 
       - name: Download Stats Card
         run: |
-          curl -o dist/stats.svg "https://github-readme-stats.vercel.app/api?username=arvind00a&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7c3aed&icon_color=7c3aed&text_color=c9d1d9&count_private=true"
+          curl -o dist/stats.svg "https://github-stats.as93.net/api?username=arvind00a&theme=dark&show_icons=true"
 
       - name: Download Top Languages Card
         run: |
-          curl -o dist/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=arvind00a&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7c3aed&text_color=c9d1d9"
+          curl -o dist/top-langs.svg "https://github-stats.as93.net/api/top-langs?username=arvind00a&theme=dark&layout=compact"
 
       - name: Download Streak Card
         run: |
