@@ -2,8 +2,8 @@ name: Generate GitHub Stats Cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs every day at midnight
-  workflow_dispatch:        # lets you trigger it manually from GitHub
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -15,28 +15,20 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Stats Card
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: arvind00a
-          card_type: stats
-        env:
-          PAT_1: ${{ secrets.GH_TOKEN }}
+      - name: Create dist folder
+        run: mkdir -p dist
 
-      - name: Generate Top Languages Card
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: arvind00a
-          card_type: top-langs
-        env:
-          PAT_1: ${{ secrets.GH_TOKEN }}
+      - name: Download Stats Card
+        run: |
+          curl -o dist/stats.svg "https://github-readme-stats.vercel.app/api?username=arvind00a&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7c3aed&icon_color=7c3aed&text_color=c9d1d9&count_private=true"
 
-      - name: Generate Streak Stats
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          user: arvind00a
-        env:
-          token: ${{ secrets.GH_TOKEN }}
+      - name: Download Top Languages Card
+        run: |
+          curl -o dist/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=arvind00a&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7c3aed&text_color=c9d1d9"
+
+      - name: Download Streak Card
+        run: |
+          curl -o dist/streak.svg "https://streak-stats.demolab.com?user=arvind00a&theme=tokyonight&hide_border=true&background=0D1117&ring=7c3aed&fire=7c3aed&currStreakLabel=7c3aed"
 
       - name: Generate Snake Animation
         uses: Platane/snk@v3
@@ -48,10 +40,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit generated files
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add dist/
-          git diff --staged --quiet || git commit -m "chore: update stats and snake animation"
+          git diff --staged --quiet || git commit -m "chore: update stats cards"
           git push
