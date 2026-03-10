@@ -51,36 +51,62 @@ var arvind = new Developer
 
 ## 🛠️ Tech Stack
 
-### 🔷 Language
+---
+
+### 💻 Languages
+
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+---
 
 ### ⚙️ Backend
+
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![ASP.NET MVC](https://img.shields.io/badge/ASP.NET_MVC-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Dapper](https://img.shields.io/badge/Dapper-005571?style=for-the-badge)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
-![LINQ](https://img.shields.io/badge/LINQ-239120?style=for-the-badge)
-![Multithreading](https://img.shields.io/badge/Multithreading-239120?style=for-the-badge)
+![Dapper](https://img.shields.io/badge/Dapper-005571?style=for-the-badge&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logoColor=white)
+![LINQ](https://img.shields.io/badge/LINQ-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![Multithreading](https://img.shields.io/badge/Multithreading-239120?style=for-the-badge&logo=csharp&logoColor=white)
+
+---
 
 ### 🎨 Frontend
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Material UI](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
 
+---
+
 ### 🗄️ Databases
+
 ![MS SQL](https://img.shields.io/badge/MS_SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
-### 🧰 Tools
+---
+
+### 🧰 Tools & IDEs
+
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Kestrel](https://img.shields.io/badge/Kestrel_Web_Server-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+
+---
 
 ---
 
@@ -99,16 +125,27 @@ var arvind = new Developer
 
 <div align="center">
 
-<!-- Stats cards are auto-generated daily by GitHub Actions and saved locally — no rate limit issues -->
-<img height="180em" src="./dist/stats.svg" alt="Arvind's GitHub Stats" onerror="this.src='https://github-readme-stats.vercel.app/api?username=arvind00a&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7c3aed&icon_color=7c3aed&text_color=c9d1d9'"/>
-&nbsp;
-<img height="180em" src="./dist/top-langs.svg" alt="Top Languages" onerror="this.src='https://github-readme-stats.vercel.app/api/top-langs/?username=arvind00a&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7c3aed&text_color=c9d1d9'"/>
+[![GitHub Streak](https://streak-stats.demolab.com?user=arvind00a&theme=tokyonight&hide_border=true&background=0D1117&ring=7c3aed&fire=7c3aed&currStreakLabel=7c3aed)](https://git.io/streak-stats)
 
 </div>
 
 <div align="center">
 
-<img src="./dist/streak.svg" alt="GitHub Streak" onerror="this.src='https://streak-stats.demolab.com?user=arvind00a&theme=tokyonight&hide_border=true&background=0D1117&ring=7c3aed&fire=7c3aed&currStreakLabel=7c3aed'"/>
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=arvind00a&theme=tokyonight)
+
+</div>
+
+<div align="center">
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=arvind00a&theme=tokyonight)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=arvind00a&theme=tokyonight)
+
+</div>
+
+<div align="center">
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=arvind00a&theme=tokyonight)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=arvind00a&theme=tokyonight&utcOffset=5.5)
 
 </div>
 
