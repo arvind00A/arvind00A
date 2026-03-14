@@ -8,8 +8,9 @@
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 [![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](https://dotnet.microsoft.com/)
 [![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2026-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)](https://visualstudio.microsoft.com/)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://github.com/arvind01A)
-[![Days](https://img.shields.io/badge/Days%20Completed-9-blue?style=for-the-badge)](https://github.com/arvind01A)
+[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)](https://github.com/arvind01A)
+[![Days](https://img.shields.io/badge/Days%20Completed-10%2F10-blue?style=for-the-badge)](https://github.com/arvind01A)
+[![Roadmap](https://img.shields.io/badge/C%23%20Interview%20Roadmap-100%25-brightgreen?style=for-the-badge)](https://github.com/arvind01A)
 
 <br/>
 
@@ -19,9 +20,17 @@
 
 ---
 
+## 🎉 Journey Completed!
+
+> **10 days. Beginner → Expert.**
+> This repository is the complete C# Interview Roadmap — from fundamentals all the way to SOLID principles and Design Patterns.
+> Thank you for following along! ⭐ Star this repo if it helped you.
+
+---
+
 ## 📖 Overview
 
-This repository documents my daily C# revision — from basics to advanced concepts.
+This repository documents my complete C# revision — from basics to expert-level concepts.
 Each day includes:
 
 | 📌 What's Inside | Description |
@@ -36,15 +45,16 @@ Each day includes:
 
 ---
 
-## 🎯 Goal
+## 🎯 Roadmap — Completed ✅
 
 ```
 Fundamentals → OOP → Collections → Exception Handling → File I/O → Expert_level-1 → Expert_level-2 → Expert_level-3
+     ✅             ✅✅✅          ✅                    ✅           ✅               ✅                ✅
 ```
 
 ---
 
-## 📅 Progress & Completed Days
+## 📅 All 10 Days — Complete
 
 | # | Day | Topic | Subtopics | Status |
 |---|-----|-------|-----------|--------|
@@ -54,11 +64,12 @@ Fundamentals → OOP → Collections → Exception Handling → File I/O → Exp
 | 4 | **Day 4** | [Data Structures](#-day-4--basic-data-structures) | Arrays · Strings · StringBuilder · Tuples | ✅ Done |
 | 5 | **Day 5** | [Generics](#-day-5--generics) | Generic Classes · Methods · Constraints | ✅ Done |
 | 6 | **Day 6** | [Collections](#-day-6--collections) | Non-Generic · Generic · Specialized · Concurrent | ✅ Done |
-| 7 | **Day 7** | [Exception & File Handling](#-day-7--exception--file-handling) | try-catch-finally · throw vs throw ex · Built-in Exceptions · Global Handler · StreamReader/Writer · File & Dir Operations · Async File I/O | ✅ Done |
-| 8 | **Day 8** | [Expert I — Functional Programming & Delegates](#-day-8--expert-i--functional-programming--delegates) | Extension Methods · Lambda · LINQ · Pattern Matching · Pure Functions · Action/Func/Predicate · Anonymous Methods · Events | ✅ Done |
-| 9 | **Day 9** | [Expert II — Multithreading, Async & Serialization](#-day-9--expert-ii--multithreading-async--serialization) | Thread Class · Task Class · Parallel.ForEach · Async/Await · Exception in Async · IAsyncEnumerable · Binary/JSON/XML Serialization | ✅ Done |
+| 7 | **Day 7** | [Exception & File Handling](#-day-7--exception--file-handling) | try-catch-finally · throw vs throw ex · Built-in Exceptions · StreamReader/Writer · Async File I/O | ✅ Done |
+| 8 | **Day 8** | [Expert I — Functional Programming & Delegates](#-day-8--expert-i--functional-programming--delegates) | Extension Methods · Lambda · LINQ · Pattern Matching · Action/Func/Predicate · Events | ✅ Done |
+| 9 | **Day 9** | [Expert II — Multithreading, Async & Serialization](#-day-9--expert-ii--multithreading-async--serialization) | Thread · Task · Parallel.ForEach · Async/Await · IAsyncEnumerable · JSON/XML/Binary | ✅ Done |
+| 10 | **Day 10** | [Expert III — Best Practices & Design Patterns](#-day-10--expert-iii--best-practices--design-patterns) | Naming · Clean Code · Null Safety · C# 12 Features · SOLID · Creational · Structural · Behavioral Patterns | ✅ Done |
 
-> 🕒 **Last updated:** March 13, 2026
+> 🏁 **Completed:** March 14, 2026
 
 ---
 
@@ -99,12 +110,10 @@ bool either = (true || false);  // true
 
 #### 🔀 Control Statements
 ```csharp
-// if / else if / else
 if (age >= 18) { Console.WriteLine("Adult"); }
 else if (age >= 13) { Console.WriteLine("Teen"); }
 else { Console.WriteLine("Child"); }
 
-// switch expression (C# 8+)
 string label = age switch {
     >= 18 => "Adult",
     >= 13 => "Teen",
@@ -112,20 +121,14 @@ string label = age switch {
 };
 ```
 
-#### 🔁 Loops
+#### 🔁 Loops & Jump Statements
 ```csharp
-for (int i = 0; i < 5; i++) { /* ... */ }
-while (condition) { /* ... */ }
-do { /* ... */ } while (condition);
-foreach (var item in collection) { /* ... */ }
-```
+for (int i = 0; i < 5; i++) { }
+while (condition) { }
+do { } while (condition);
+foreach (var item in collection) { }
 
-#### ⏭️ Jump Statements
-```csharp
-break;      // Exit loop
-continue;   // Skip to next iteration
-return;     // Exit method
-goto label; // Jump to label (avoid!)
+break; continue; return; // jump statements
 ```
 
 </details>
@@ -139,18 +142,11 @@ goto label; // Jump to label (avoid!)
 
 #### 🏗️ Methods & Parameters
 ```csharp
-// Return types
 public int Add(int a, int b) => a + b;
-public void Print(string msg) => Console.WriteLine(msg);
-
-// Parameter passing
 public void Swap(ref int a, ref int b) { (a, b) = (b, a); }
 public void TryParse(string s, out int result) { result = int.Parse(s); }
-
-// Optional parameters & named arguments
 public void Greet(string name, string greeting = "Hello") =>
     Console.WriteLine($"{greeting}, {name}!");
-
 Greet(name: "Arvind", greeting: "Hi");
 ```
 
@@ -161,12 +157,10 @@ public class Person
     public string Name { get; set; }
     public int Age { get; set; }
 
-    public Person() { }                          // Default
-    public Person(string name) => Name = name;   // Parameterized
-    public Person(Person other)                  // Copy
-        => (Name, Age) = (other.Name, other.Age);
-
-    static Person() { /* Runs once, before first use */ } // Static
+    public Person() { }
+    public Person(string name) => Name = name;
+    public Person(Person other) => (Name, Age) = (other.Name, other.Age);
+    static Person() { /* runs once */ }
 }
 ```
 
@@ -174,9 +168,9 @@ public class Person
 ```csharp
 public class Circle
 {
-    private double _radius;          // Private field
-    public static int Count = 0;     // Static field
-    public readonly double Id;       // Readonly (set in constructor only)
+    private double _radius;
+    public static int Count = 0;
+    public readonly double Id;
 }
 ```
 
@@ -189,18 +183,27 @@ public class Circle
 <details>
 <summary><b>Click to expand</b></summary>
 
-#### 🔒 Encapsulation
+#### 🔒 Encapsulation · 🧬 Inheritance · 🎭 Abstraction · 🔄 Polymorphism
+
 ```csharp
+// Encapsulation
 public class BankAccount
 {
     private decimal _balance;
-
-    public decimal Balance
-    {
-        get => _balance;
-        private set => _balance = value >= 0 ? value : 0;
-    }
+    public decimal Balance { get => _balance; private set => _balance = value >= 0 ? value : 0; }
 }
+
+// Inheritance
+public class Animal { public virtual void Speak() => Console.WriteLine("..."); }
+public class Dog : Animal { public override void Speak() => Console.WriteLine("Woof!"); }
+
+// Abstraction
+public abstract class Shape { public abstract double Area(); }
+public interface IDrawable { void Draw(); string Color { get; set; } }
+
+// Polymorphism — runtime
+Animal animal = new Dog();
+animal.Speak();  // "Woof!"
 ```
 
 **Access Modifiers:**
@@ -212,59 +215,6 @@ public class BankAccount
 | `internal` | Same assembly |
 | `protected internal` | Same assembly or subclasses |
 
-#### 🧬 Inheritance
-```csharp
-public class Animal
-{
-    public virtual void Speak() => Console.WriteLine("...");
-}
-
-public class Dog : Animal
-{
-    public override void Speak() => Console.WriteLine("Woof!");
-    public Dog(string name) : base() { }
-}
-```
-
-#### 🎭 Abstraction
-```csharp
-public abstract class Shape
-{
-    public abstract double Area();
-    public void Display() => Console.WriteLine($"Area: {Area()}");
-}
-
-public interface IDrawable
-{
-    void Draw();
-    string Color { get; set; }
-}
-```
-
-#### 🔄 Polymorphism
-```csharp
-// Compile-time (Method Overloading)
-public int Multiply(int a, int b) => a * b;
-public double Multiply(double a, double b) => a * b;
-
-// Runtime (Method Overriding)
-Animal animal = new Dog();
-animal.Speak();  // "Woof!" → resolved at runtime
-```
-
-#### 📇 Indexers
-```csharp
-public class WordCollection
-{
-    private string[] _words = new string[10];
-    public string this[int index]
-    {
-        get => _words[index];
-        set => _words[index] = value;
-    }
-}
-```
-
 </details>
 
 ---
@@ -274,37 +224,20 @@ public class WordCollection
 <details>
 <summary><b>Click to expand</b></summary>
 
-#### 📐 Arrays
 ```csharp
+// Arrays
 int[] nums = { 1, 2, 3, 4, 5 };
 int[,] matrix = new int[3, 3];
 int[][] jagged = new int[3][];
-jagged[0] = new int[] { 1, 2, 3 };
+Array.Sort(nums); Array.Reverse(nums);
 
-Array.Sort(nums);
-Array.Reverse(nums);
-int idx = Array.IndexOf(nums, 3);
-int[] copy = (int[])nums.Clone();
-```
-
-#### 🔤 Strings
-```csharp
-string s = "Hello, Arvind!";
-s.ToUpper();   s.Contains("Arvind");   s.Replace("Hello", "Hi");
-s.Split(',');  s.Trim();
-
+// Strings
 string msg = $"Name: {name}, Age: {age}";
-
 var sb = new StringBuilder();
-sb.Append("Hello");
-sb.AppendLine(" World");
-string result = sb.ToString();
-```
+sb.Append("Hello"); sb.AppendLine(" World");
 
-#### 📦 Tuples
-```csharp
+// Tuples
 var person = (Name: "Arvind", Age: 25, City: "Delhi");
-Console.WriteLine(person.Name);
 var (name, age, city) = person;
 ```
 
@@ -317,22 +250,17 @@ var (name, age, city) = person;
 <details>
 <summary><b>Click to expand</b></summary>
 
-#### 📦 Generic Classes & Methods
 ```csharp
 public class Box<T> { public T Value { get; set; } }
 public class Pair<TKey, TValue> { public TKey Key; public TValue Value; }
-
 public static void Swap<T>(ref T a, ref T b) => (a, b) = (b, a);
-Swap<int>(ref x, ref y);   // explicit
-Swap(ref x, ref y);        // inferred
 ```
 
-#### 📏 Generic Constraints
 | Constraint | Meaning |
 |---|---|
 | `where T : class` | Reference types only |
 | `where T : struct` | Value types only |
-| `where T : new()` | Must have parameterless constructor |
+| `where T : new()` | Parameterless constructor |
 | `where T : IComparable<T>` | Must implement IComparable |
 
 </details>
@@ -344,39 +272,23 @@ Swap(ref x, ref y);        // inferred
 <details>
 <summary><b>Click to expand</b></summary>
 
-#### 🗂️ Non-Generic (`System.Collections`) — ⚠️ Avoid
 ```csharp
-ArrayList list = new ArrayList();   // mixed types
-Hashtable ht   = new Hashtable();
-Queue queue    = new Queue();
-Stack stack    = new Stack();
-```
+// Generic (preferred)
+List<int> numbers       = new() { 1, 2, 3 };
+var scores              = new Dictionary<string, int>();
+var set                 = new HashSet<string>();
+var sorted              = new SortedList<string, int>();
 
-#### ✅ Generic (`System.Collections.Generic`)
-```csharp
-List<int> numbers = new() { 1, 2, 3 };
-var scores = new Dictionary<string, int>();
-var set    = new HashSet<string>();
-var queue  = new Queue<string>();
-var stack  = new Stack<int>();
-var linked = new LinkedList<int>();
-var sorted = new SortedList<string, int>();
-```
-
-#### ⚡ Concurrent (`System.Collections.Concurrent`)
-```csharp
+// Concurrent (thread-safe)
 ConcurrentDictionary<string, int> dict = new();
-ConcurrentQueue<string> queue = new();
-ConcurrentBag<int> bag = new();
+ConcurrentQueue<string> queue           = new();
 ```
 
-**Quick Comparison:**
 | Collection | Ordered | Unique | Key-Value | Thread-Safe |
 |---|---|---|---|---|
 | `List<T>` | ✅ | ❌ | ❌ | ❌ |
 | `Dictionary<K,V>` | ❌ | ✅ Keys | ✅ | ❌ |
 | `HashSet<T>` | ❌ | ✅ | ❌ | ❌ |
-| `SortedList<K,V>` | ✅ | ✅ Keys | ✅ | ❌ |
 | `ConcurrentDictionary` | ❌ | ✅ Keys | ✅ | ✅ |
 
 </details>
@@ -388,48 +300,22 @@ ConcurrentBag<int> bag = new();
 <details>
 <summary><b>Click to expand</b></summary>
 
-#### 🔁 try-catch-finally
 ```csharp
+// try-catch-finally
 try   { int r = 10 / int.Parse("0"); }
 catch (DivideByZeroException ex) { Console.WriteLine(ex.Message); }
-catch (FormatException ex)       { Console.WriteLine(ex.Message); }
-catch (Exception ex)             { Console.WriteLine(ex.Message); } // last
-finally { Console.WriteLine("Always runs — cleanup here!"); }
-```
+finally { Console.WriteLine("Cleanup!"); }
 
-#### 🚀 throw vs throw ex
-| | `throw` | `throw ex` |
-|---|---|---|
-| **Stack trace** | ✅ Preserved | ❌ Reset |
-| **Best practice** | ✅ Always prefer | ⚠️ Avoid |
+// throw vs throw ex
+catch (Exception ex) { Log(ex); throw; }        // ✅ preserves stack trace
+catch (Exception ex) { Log(ex); throw ex; }      // ❌ resets stack trace
 
-#### 🧱 Built-in Exceptions
-| Exception | Thrown When |
-|---|---|
-| `ArgumentNullException` | Null argument passed |
-| `IndexOutOfRangeException` | Invalid array index |
-| `NullReferenceException` | Null object access |
-| `FormatException` | Invalid string format |
-| `DivideByZeroException` | Integer division by zero |
-| `FileNotFoundException` | File does not exist |
-
-#### 📁 File Handling (`System.IO`)
-```csharp
-// Write / Read
+// File I/O
 using var writer = new StreamWriter("notes.txt");
 writer.WriteLine("Hello!");
-using var reader = new StreamReader("notes.txt");
-string content = reader.ReadToEnd();
-
-// File operations
-File.WriteAllText("log.txt", "entry");
-File.AppendAllText("log.txt", "\nmore");
-File.Copy("a.txt", "b.txt");  File.Delete("old.txt");
-string combined = Path.Combine("logs", "app.log");
-
-// Async
-string text = await File.ReadAllTextAsync("notes.txt");
+string content = File.ReadAllText("notes.txt");
 await File.WriteAllTextAsync("out.txt", "async write");
+string path = Path.Combine("logs", "app.log");
 ```
 
 </details>
@@ -441,80 +327,34 @@ await File.WriteAllTextAsync("out.txt", "async write");
 <details>
 <summary><b>Click to expand</b></summary>
 
-#### 🔌 Extension Methods
 ```csharp
-public static class StringExtensions
-{
-    public static string Capitalize(this string s)
-        => string.IsNullOrEmpty(s) ? s : char.ToUpper(s[0]) + s[1..];
-    public static bool IsEmail(this string s) => s.Contains('@') && s.Contains('.');
-}
-"hello".Capitalize();   // "Hello"
-"a@b.com".IsEmail();    // true
-```
+// Extension Methods
+public static string Capitalize(this string s)
+    => string.IsNullOrEmpty(s) ? s : char.ToUpper(s[0]) + s[1..];
+"hello".Capitalize();  // "Hello"
 
-#### λ Lambda Expressions
-```csharp
-Func<int, int>      square  = x => x * x;
-Func<int, int, int> add     = (a, b) => a + b;
-Action<string>      print   = msg => Console.WriteLine(msg);
-Predicate<int>      isEven  = n => n % 2 == 0;
-
-var evens   = numbers.Where(n => n % 2 == 0).ToList();
-var doubled = numbers.Select(n => n * 2).ToList();
-```
-
-#### 🔍 LINQ
-```csharp
-// Method syntax (most common)
+// Lambda & LINQ
+Func<int, int> square = x => x * x;
 var result = students
     .Where(s => s.Score >= 80)
     .OrderByDescending(s => s.Score)
     .Select(s => s.Name);
 
-// Key operators
-nums.Where(n => n > 5);            // filter
-nums.Select(n => n * n);           // project
-nums.OrderBy(n => n);              // sort
-nums.GroupBy(n => n % 2 == 0);     // group
-nums.Take(3);  nums.Skip(7);       // paginate
-nums.Sum();  nums.Average();       // aggregate
-a.Union(b);  a.Intersect(b);       // set ops
-```
-
-#### 🎭 Pattern Matching (C# 8+)
-```csharp
+// Pattern Matching
 string desc = shape switch
 {
     Circle c when c.Radius > 10 => "Large circle",
-    Circle c                    => "Small circle",
     Rectangle r                 => $"{r.Width}x{r.Height}",
     _                           => "Unknown"
 };
-```
 
-#### 📣 Delegates — Action, Func & Predicate
-```csharp
-Action<string>       greet   = name => Console.WriteLine($"Hi {name}!");
-Func<int, int>       square  = x => x * x;
-Predicate<int>       isEven  = n => n % 2 == 0;
+// Delegates & Events
+Action<string> greet = name => Console.WriteLine($"Hi {name}!");
+Func<int, int> sq    = x => x * x;
+Predicate<int> even  = n => n % 2 == 0;
 
-// Multicast
-Action log = () => Console.WriteLine("Log 1");
-log += () => Console.WriteLine("Log 2");
-log();  // prints both
-```
-
-#### 📡 Events
-```csharp
-public class OrderService
-{
-    public event EventHandler<OrderEventArgs> OrderPlaced;
-    public void PlaceOrder(string item) => OrderPlaced?.Invoke(this, new(item));
-}
-
-service.OrderPlaced += (s, e) => Console.WriteLine($"Order: {e.Item}");
-service.PlaceOrder("Laptop");
+public event EventHandler<OrderEventArgs> OrderPlaced;
+OrderPlaced?.Invoke(this, new OrderEventArgs(item));
 ```
 
 </details>
@@ -526,420 +366,320 @@ service.PlaceOrder("Laptop");
 <details>
 <summary><b>Click to expand</b></summary>
 
----
-
-## 🧵 Multithreading
-
-#### 🔵 Thread Class
-> Low-level OS thread. Use for long-running background work where you need direct thread control.
-
 ```csharp
-using System.Threading;
+// Thread
+Thread t = new Thread(() => { Thread.Sleep(500); Console.WriteLine("Done"); });
+t.IsBackground = true;  t.Start();  t.Join();
 
-// Basic thread creation
-Thread t = new Thread(() =>
-{
-    Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} running");
-    Thread.Sleep(1000);   // simulate work
-});
-t.Name      = "WorkerThread";
-t.IsBackground = true;    // dies when main thread exits
-t.Start();
-t.Join();                 // wait for thread to finish
+// Task (preferred)
+Task<int> task = Task.Run(() => 42);
+int result = await task;
+int[] all = await Task.WhenAll(t1, t2, t3);
 
-// Passing data
-Thread t2 = new Thread(obj =>
-{
-    string msg = (string)obj!;
-    Console.WriteLine($"Received: {msg}");
-});
-t2.Start("Hello from main!");
+// Parallel (CPU-bound)
+Parallel.ForEach(items, item => ProcessItem(item));
+Parallel.Invoke(() => TaskA(), () => TaskB());
 
-// Thread synchronization — lock
-private static readonly object _lock = new();
-private static int _counter = 0;
-
-Thread[] threads = Enumerable.Range(0, 5)
-    .Select(_ => new Thread(() =>
-    {
-        lock (_lock)     // only one thread at a time
-        {
-            _counter++;
-            Console.WriteLine($"Counter: {_counter}");
-        }
-    })).ToArray();
-
-Array.ForEach(threads, t => t.Start());
-Array.ForEach(threads, t => t.Join());
-```
-
-> ⚠️ **Prefer `Task` over `Thread`** for most scenarios — Tasks use the thread pool and are much more efficient.
-
----
-
-#### 🟢 Task Class (TPL — Task Parallel Library)
-> Higher-level abstraction over threads. Uses the thread pool automatically.
-
-```csharp
-using System.Threading.Tasks;
-
-// Fire and forget
-Task.Run(() => Console.WriteLine("Running on thread pool"));
-
-// Returning a value
-Task<int> task = Task.Run(() =>
-{
-    Thread.Sleep(500);
-    return 42;
-});
-int result = await task;   // or task.Result (blocking — avoid!)
-Console.WriteLine(result); // 42
-
-// Chaining with ContinueWith
-Task.Run(() => "Step 1")
-    .ContinueWith(t => $"{t.Result} → Step 2")
-    .ContinueWith(t => Console.WriteLine(t.Result));
-
-// Running multiple tasks
-Task<int> t1 = Task.Run(() => { Thread.Sleep(200); return 1; });
-Task<int> t2 = Task.Run(() => { Thread.Sleep(100); return 2; });
-Task<int> t3 = Task.Run(() => { Thread.Sleep(300); return 3; });
-
-// Wait for ALL to finish
-int[] results = await Task.WhenAll(t1, t2, t3);  // [1, 2, 3]
-
-// Wait for FIRST to finish
-Task<int> first = await Task.WhenAny(t1, t2, t3);
-Console.WriteLine(await first);   // 2 (fastest)
-
-// Task cancellation
-var cts = new CancellationTokenSource();
-cts.CancelAfter(TimeSpan.FromSeconds(3));
-
-Task longTask = Task.Run(async () =>
-{
-    for (int i = 0; i < 10; i++)
-    {
-        cts.Token.ThrowIfCancellationRequested();
-        await Task.Delay(500);
-        Console.WriteLine($"Step {i}");
-    }
-}, cts.Token);
-
-try   { await longTask; }
-catch (OperationCanceledException) { Console.WriteLine("Task cancelled!"); }
-```
-
-**Thread vs Task:**
-| | `Thread` | `Task` |
-|---|---|---|
-| **Level** | Low-level OS thread | High-level abstraction |
-| **Thread pool** | ❌ Creates new thread | ✅ Reuses pool threads |
-| **Return value** | ❌ Not directly | ✅ `Task<T>` |
-| **Cancellation** | Manual | ✅ `CancellationToken` |
-| **Async/await** | ❌ | ✅ |
-| **Use when** | Fine control needed | Most scenarios |
-
----
-
-#### 🔴 Parallel Programming — `Parallel.ForEach`
-> CPU-bound work distributed across multiple cores automatically.
-
-```csharp
-using System.Threading.Tasks;
-
-var items = Enumerable.Range(1, 20).ToList();
-
-// Parallel.ForEach — processes items on multiple threads
-Parallel.ForEach(items, item =>
-{
-    Console.WriteLine($"Processing {item} on thread {Thread.CurrentThread.ManagedThreadId}");
-});
-
-// With ParallelOptions — limit thread count
-Parallel.ForEach(items,
-    new ParallelOptions { MaxDegreeOfParallelism = 4 },
-    item => ProcessItem(item));
-
-// Parallel.For — indexed version
-Parallel.For(0, 10, i =>
-{
-    Console.WriteLine($"i={i} on thread {Thread.CurrentThread.ManagedThreadId}");
-});
-
-// Parallel.Invoke — run multiple actions concurrently
-Parallel.Invoke(
-    () => Console.WriteLine("Task A"),
-    () => Console.WriteLine("Task B"),
-    () => Console.WriteLine("Task C")
-);
-
-// Thread-safe aggregation with Interlocked
-int total = 0;
-Parallel.ForEach(items, item =>
-{
-    Interlocked.Add(ref total, item);  // atomic — no lock needed
-});
-Console.WriteLine($"Total: {total}");  // 210
-```
-
-> ⚠️ **Don't use Parallel for I/O-bound work** (network, file, DB) — use `async/await` instead.
-> **Parallel is for CPU-bound** work (calculations, data processing, image processing).
-
----
-
-## ⚡ Asynchronous Programming
-
-#### 🔵 Async and Await
-> Non-blocking execution — the thread is released while waiting, not blocked.
-
-```csharp
-// Basic pattern
-public async Task<string> FetchDataAsync(string url)
+// Async/Await
+public async Task<string> FetchAsync(string url)
 {
     using var client = new HttpClient();
-    string data = await client.GetStringAsync(url);  // thread released here
-    return data.ToUpper();
+    return await client.GetStringAsync(url);
 }
 
-// void async — only for event handlers
-private async void Button_Click(object sender, EventArgs e)
-{
-    await DoWorkAsync();  // OK in event handler
-}
-
-// ✅ Always return Task, not void (except event handlers)
-public async Task DoWorkAsync()
-{
-    await Task.Delay(1000);
-    Console.WriteLine("Done!");
-}
-
-// Calling async methods
-string result = await FetchDataAsync("https://api.example.com");
-
-// ConfigureAwait(false) — avoid deadlocks in library code
-public async Task<string> LibraryMethodAsync()
-{
-    var data = await GetDataAsync().ConfigureAwait(false);
-    return Process(data);
-}
-
-// Run sync code asynchronously
-string result2 = await Task.Run(() => HeavyComputation());
-
-// ValueTask — for frequently called methods that often complete synchronously
-public async ValueTask<int> GetCachedValueAsync(int key)
-{
-    if (_cache.TryGetValue(key, out int val)) return val;  // sync fast path
-    return await LoadFromDbAsync(key);                      // async slow path
-}
-```
-
----
-
-#### 🔴 Exception Handling in Async Methods
-
-```csharp
-// ✅ Standard try-catch works normally with await
-public async Task RunAsync()
-{
-    try
-    {
-        await Task.Delay(100);
-        throw new InvalidOperationException("Async error!");
-    }
-    catch (InvalidOperationException ex)
-    {
-        Console.WriteLine($"Caught: {ex.Message}");
-    }
-    finally
-    {
-        Console.WriteLine("Cleanup in async finally");
-    }
-}
-
-// Multiple tasks — AggregateException
-Task t1 = Task.Run(() => throw new Exception("Error 1"));
-Task t2 = Task.Run(() => throw new Exception("Error 2"));
-
-try
-{
-    await Task.WhenAll(t1, t2);
-}
-catch (Exception ex)
-{
-    // Only first exception surfaced by await
-    Console.WriteLine(ex.Message);
-}
-
-// ✅ Inspect ALL exceptions from WhenAll
-var tasks = new[] { t1, t2 };
-await Task.WhenAll(tasks);   // swallow; then check:
-foreach (var t in tasks.Where(t => t.IsFaulted))
-    Console.WriteLine(t.Exception?.InnerException?.Message);
-
-// ⚠️ Never do async void (exceptions are unobservable)
-// ❌ BAD
-private async void DoWork() { await Task.Delay(1000); throw new Exception(); }
-
-// ✅ GOOD
-private async Task DoWorkAsync() { await Task.Delay(1000); throw new Exception(); }
-```
-
----
-
-#### 🟢 Async Streams — `IAsyncEnumerable<T>`
-> Stream data asynchronously — yield items one at a time without loading all into memory.
-
-```csharp
-// Producer — async generator
-public async IAsyncEnumerable<int> GenerateNumbersAsync(
-    int count,
-    [EnumeratorCancellation] CancellationToken ct = default)
-{
-    for (int i = 0; i < count; i++)
-    {
-        ct.ThrowIfCancellationRequested();
-        await Task.Delay(100, ct);     // simulate async fetch
-        yield return i;                // yield one item at a time
-    }
-}
-
-// Consumer — await foreach
+// Async Streams
 await foreach (int num in GenerateNumbersAsync(10))
+    Console.WriteLine(num);
+
+// Serialization
+string json = JsonSerializer.Serialize(person, new JsonSerializerOptions { WriteIndented = true });
+Person? p   = JsonSerializer.Deserialize<Person>(json);
+```
+
+| Format | Readable | Speed | Use Case |
+|---|---|---|---|
+| JSON | ✅ | Fast | APIs, web |
+| XML | ✅ | Slow | Legacy, SOAP |
+| Binary | ❌ | ⚡ Fastest | Cache, IPC |
+
+</details>
+
+---
+
+### 🏆 Day 10 — Expert III: Best Practices & Design Patterns
+
+<details>
+<summary><b>Click to expand</b></summary>
+
+---
+
+## ✅ C# Best Practices
+
+#### 📛 Naming Conventions
+```csharp
+// Classes, Methods, Properties → PascalCase
+public class OrderService { }
+public void PlaceOrder() { }
+public string CustomerName { get; set; }
+
+// Local variables, parameters → camelCase
+int orderCount = 0;
+void Process(string orderItem) { }
+
+// Private fields → _camelCase
+private readonly string _connectionString;
+
+// Constants → PascalCase
+public const int MaxRetries = 3;
+
+// Interfaces → I prefix
+public interface IOrderRepository { }
+
+// Generics → T prefix
+public class Repository<TEntity> { }
+```
+
+---
+
+#### 🧹 Clean Code Principles
+```csharp
+// ✅ Small, focused methods
+public async Task ProcessOrderAsync(Order order)
 {
-    Console.WriteLine($"Received: {num}");
+    await _validator.ValidateAsync(order);
+    await _pricer.CalculateTotalAsync(order);
+    await _repository.SaveAsync(order);
+    await _notifier.SendConfirmationAsync(order);
 }
 
-// Real-world: stream DB rows, API pages, file lines
-public async IAsyncEnumerable<Order> StreamOrdersAsync()
+// ✅ No magic numbers — use enums
+public enum UserRole { Guest = 0, User = 1, Admin = 2 }
+if (user.Role == UserRole.Admin) { }
+
+// ✅ Expression bodies for simple members
+public string FullName => $"{FirstName} {LastName}";
+
+// ✅ Dispose resources
+using var conn = new SqlConnection(connStr);
+await using var stream = File.OpenWrite("out.txt");
+```
+
+---
+
+#### 🛡️ Null Safety (C# 8+)
+```csharp
+string  name  = "Arvind";    // non-nullable
+string? email = null;         // nullable
+
+int? length = email?.Length;              // null-conditional
+string display = name ?? "Anonymous";     // null-coalescing
+cache ??= new Dictionary<string, int>();  // null-coalescing assignment
+
+ArgumentNullException.ThrowIfNull(name);  // C# 10+ guard
+
+// Required properties (C# 11+)
+public class Order
 {
-    await using var conn = new SqlConnection(connStr);
-    await conn.OpenAsync();
-    var cmd = new SqlCommand("SELECT * FROM Orders", conn);
-    await using var reader = await cmd.ExecuteReaderAsync();
-    while (await reader.ReadAsync())
-        yield return MapOrder(reader);
+    public required string Id { get; init; }
+    public required string CustomerName { get; init; }
 }
 ```
 
-**`IEnumerable<T>` vs `IAsyncEnumerable<T>`:**
-| | `IEnumerable<T>` | `IAsyncEnumerable<T>` |
+---
+
+#### 🆕 Modern C# Features (C# 10–14)
+```csharp
+// Records (C# 9+)
+public record Person(string Name, int Age);
+var p2 = p1 with { Age = 26 };   // non-destructive mutation
+
+// Global usings (C# 10+)
+global using System.Text.Json;
+
+// File-scoped namespace (C# 10+)
+namespace MyApp.Services;
+
+// Primary constructors (C# 12+)
+public class OrderService(IOrderRepository repo, ILogger<OrderService> logger) { }
+
+// Collection expressions (C# 12+)
+int[] nums   = [1, 2, 3, 4, 5];
+int[] merged = [..nums, 6, 7];
+
+// Raw string literals (C# 11+)
+string json = """
+    {
+        "name": "Arvind",
+        "age": 25
+    }
+    """;
+```
+
+---
+
+## 🏗️ SOLID Principles
+
+#### **S** — Single Responsibility
+```csharp
+// ❌ One class doing everything
+// ✅ Separate concerns
+public class UserRepository    { public void Save(User u) { } }
+public class EmailService      { public void SendWelcome(User u) { } }
+public class UserReportService { public string Generate(User u) => ""; }
+```
+
+#### **O** — Open/Closed
+```csharp
+// ✅ Extend by adding new classes, never modify existing
+public abstract class Shape       { public abstract double Area(); }
+public class Circle    : Shape    { public override double Area() => Math.PI * Radius * Radius; }
+public class Rectangle : Shape    { public override double Area() => Width * Height; }
+public class Triangle  : Shape    { public override double Area() => 0.5 * Base * Height; }
+```
+
+#### **L** — Liskov Substitution
+```csharp
+// ✅ Subclasses must honour base class contracts
+public abstract class Shape    { public abstract double Area(); }
+public class Rectangle : Shape { public int Width, Height; public override double Area() => Width * Height; }
+public class Square    : Shape { public int Side;           public override double Area() => Side * Side; }
+```
+
+#### **I** — Interface Segregation
+```csharp
+// ✅ Small focused interfaces
+public interface IWorkable  { void Work(); }
+public interface IEatable   { void Eat(); }
+public class HumanWorker : IWorkable, IEatable { public void Work(){} public void Eat(){} }
+public class RobotWorker : IWorkable           { public void Work(){} }
+```
+
+#### **D** — Dependency Inversion
+```csharp
+// ✅ Depend on abstractions, inject implementations
+public interface IOrderRepository { Task SaveAsync(Order o); }
+
+public class OrderService
+{
+    private readonly IOrderRepository _repo;
+    public OrderService(IOrderRepository repo) => _repo = repo;
+    public async Task PlaceOrderAsync(Order o) => await _repo.SaveAsync(o);
+}
+
+// ASP.NET Core DI
+builder.Services.AddScoped<IOrderRepository, SqlOrderRepository>();
+```
+
+---
+
+## 🎨 Design Patterns
+
+#### 🏭 Singleton — one instance globally
+```csharp
+public sealed class AppConfig
+{
+    private static readonly Lazy<AppConfig> _instance = new(() => new AppConfig());
+    private AppConfig() { }
+    public static AppConfig Instance => _instance.Value;
+    public string ConnectionString { get; set; } = "";
+}
+AppConfig.Instance.ConnectionString = "Server=...";
+```
+
+#### 🏭 Factory Method — decouple creation
+```csharp
+public static Notification Create(string type) => type switch
+{
+    "email" => new EmailNotification(),
+    "sms"   => new SmsNotification(),
+    "push"  => new PushNotification(),
+    _       => throw new ArgumentException($"Unknown: {type}")
+};
+Notification.Create("email").Send("Order confirmed!");
+```
+
+#### 🏭 Builder — step-by-step construction
+```csharp
+string query = new QueryBuilder()
+    .From("Orders")
+    .Where("Status = 'Active'")
+    .Where("CustomerId = 42")
+    .OrderBy("CreatedAt DESC")
+    .Limit(10)
+    .Build();
+```
+
+#### 🔧 Repository — abstract data access
+```csharp
+public interface IRepository<T> where T : class
+{
+    Task<T?> GetByIdAsync(int id);
+    Task<IEnumerable<T>> GetAllAsync();
+    Task AddAsync(T entity);
+    Task DeleteAsync(int id);
+}
+```
+
+#### 🔧 Decorator — add behaviour without inheritance
+```csharp
+// Base → CachedOrderService → LoggedOrderService
+// Each wraps the inner and adds cross-cutting concerns
+public class CachedOrderService : IOrderService
+{
+    private readonly IOrderService _inner;
+    private readonly IMemoryCache  _cache;
+    public async Task<Order> GetOrderAsync(int id)
+    {
+        if (_cache.TryGetValue(id, out Order? cached)) return cached!;
+        var order = await _inner.GetOrderAsync(id);
+        _cache.Set(id, order, TimeSpan.FromMinutes(5));
+        return order;
+    }
+}
+```
+
+#### 🔁 Observer — notify subscribers
+```csharp
+public class StockTicker
+{
+    public event EventHandler<StockEventArgs>? PriceChanged;
+    private decimal _price;
+    public decimal Price { get => _price; set { _price = value; PriceChanged?.Invoke(this, new("AAPL", value)); } }
+}
+ticker.PriceChanged += (s, e) => Console.WriteLine($"[Alert] {e.Symbol}: ${e.Price}");
+```
+
+#### 🔁 Strategy — swap algorithms at runtime
+```csharp
+public interface ISortStrategy<T> { IEnumerable<T> Sort(IEnumerable<T> data); }
+public class AscendingSort<T>  : ISortStrategy<T> where T : IComparable<T>
+    { public IEnumerable<T> Sort(IEnumerable<T> d) => d.OrderBy(x => x); }
+public class DescendingSort<T> : ISortStrategy<T> where T : IComparable<T>
+    { public IEnumerable<T> Sort(IEnumerable<T> d) => d.OrderByDescending(x => x); }
+
+var processor = new DataProcessor<int>(new AscendingSort<int>());
+processor.SetStrategy(new DescendingSort<int>());  // swap at runtime
+```
+
+#### 🔁 Chain of Responsibility — pipeline processing
+```csharp
+var pipeline = new ValidationHandler();
+pipeline.SetNext(new PricingHandler()).SetNext(new PersistenceHandler());
+await pipeline.HandleAsync(order);
+// ✅ Validated → ✅ Priced → ✅ Saved to DB
+```
+
+**Design Patterns Quick Reference:**
+| Category | Pattern | Problem Solved |
 |---|---|---|
-| **Iteration** | `foreach` | `await foreach` |
-| **Blocking** | ✅ Blocks thread | ❌ Non-blocking |
-| **Use for** | In-memory data | DB, API, file streams |
-| **Requires** | - | `async` / `yield return` |
-
----
-
-## 💾 Serialization
-
-#### 🟢 JSON Serialization (`System.Text.Json`)
-
-```csharp
-using System.Text.Json;
-using System.Text.Json.Serialization;
-
-public class Person
-{
-    public string Name { get; set; }
-    public int Age { get; set; }
-
-    [JsonPropertyName("email_address")]    // custom JSON key
-    public string Email { get; set; }
-
-    [JsonIgnore]                           // exclude from JSON
-    public string Password { get; set; }
-}
-
-var person = new Person { Name = "Arvind", Age = 25, Email = "a@b.com" };
-
-// Serialize → JSON string
-var options = new JsonSerializerOptions { WriteIndented = true };
-string json = JsonSerializer.Serialize(person, options);
-// {
-//   "Name": "Arvind",
-//   "Age": 25,
-//   "email_address": "a@b.com"
-// }
-
-// Deserialize → object
-Person? p2 = JsonSerializer.Deserialize<Person>(json);
-Console.WriteLine(p2?.Name);   // "Arvind"
-
-// Serialize collection
-var people = new List<Person> { person };
-string jsonList = JsonSerializer.Serialize(people);
-
-// Async serialize to stream (large data)
-await using var stream = File.OpenWrite("data.json");
-await JsonSerializer.SerializeAsync(stream, person);
-```
-
----
-
-#### 🔵 XML Serialization (`System.Xml.Serialization`)
-
-```csharp
-using System.Xml.Serialization;
-
-[XmlRoot("Person")]
-public class Person
-{
-    [XmlElement("FullName")]
-    public string Name { get; set; }
-
-    [XmlAttribute("age")]
-    public int Age { get; set; }
-
-    [XmlIgnore]
-    public string Password { get; set; }
-}
-
-var serializer = new XmlSerializer(typeof(Person));
-var person = new Person { Name = "Arvind", Age = 25 };
-
-// Serialize → XML file
-using var writer = new StreamWriter("person.xml");
-serializer.Serialize(writer, person);
-// <Person age="25"><FullName>Arvind</FullName></Person>
-
-// Deserialize → object
-using var reader = new StreamReader("person.xml");
-Person? p = (Person?)serializer.Deserialize(reader);
-```
-
----
-
-#### 🟤 Binary Serialization
-> Fastest, smallest output — but not human-readable. Use for caching, IPC, or internal data transfer.
-
-```csharp
-// Modern approach — using BinaryWriter / BinaryReader (manual)
-// Writing binary
-using var bw = new BinaryWriter(File.OpenWrite("data.bin"));
-bw.Write("Arvind");   // string
-bw.Write(25);          // int
-bw.Write(92.5);        // double
-
-// Reading binary
-using var br = new BinaryReader(File.OpenRead("data.bin"));
-string name = br.ReadString();   // "Arvind"
-int    age  = br.ReadInt32();    // 25
-double score = br.ReadDouble();  // 92.5
-
-// Modern alternative — MessagePack or MemoryPack (NuGet)
-// for high-performance binary serialization in production apps
-```
-
-**Serialization Comparison:**
-| Format | Human-Readable | Speed | Size | Use Case |
-|---|---|---|---|---|
-| **JSON** | ✅ Yes | Fast | Medium | APIs, config, web |
-| **XML** | ✅ Yes | Slow | Large | Legacy, SOAP, config |
-| **Binary** | ❌ No | ⚡ Fastest | Small | Caching, IPC, perf-critical |
+| **Creational** | Singleton | One instance needed globally |
+| **Creational** | Factory Method | Decouple object creation |
+| **Creational** | Builder | Complex multi-step construction |
+| **Structural** | Repository | Abstract data access |
+| **Structural** | Decorator | Add behaviour without inheritance |
+| **Behavioral** | Observer | Notify multiple subscribers |
+| **Behavioral** | Strategy | Swap algorithms at runtime |
+| **Behavioral** | Chain of Responsibility | Pipeline / middleware processing |
 
 </details>
 
@@ -951,35 +691,88 @@ double score = br.ReadDouble();  // 92.5
 csharp-learning/
 │
 ├── 📁 day1/                         ← Fundamentals
+│   ├── 01-Variables/
+│   ├── 02-Operators/
+│   ├── 03-control-statements/
+│   ├── 04-jump-statements/
+│   └── 05-loops/
+│
 ├── 📁 day2/                         ← Classes & Objects
+│   ├── 01-Methods-and-Parameters/
+│   │   ├── 01-Return-Types/
+│   │   ├── 02-Parameter-Passing/
+│   │   ├── 03-Optional-Parameters/
+│   │   └── 04-Named-Arguments/
+│   ├── 02-Constructors/
+│   │   ├── 01-Default/
+│   │   ├── 02-Parameterized/
+│   │   ├── 03-Overloading/
+│   │   └── 04-Static-and-Copy/
+│   └── 03-Fields/
+│
 ├── 📁 day3/                         ← OOP 4 Pillars
+│   ├── 01-Encapsulation/
+│   │   ├── 01-Access-Modifiers/
+│   │   └── 02-Properties/
+│   ├── 02-Inheritance/
+│   │   ├── 01-Types-of-Inheritance/
+│   │   └── 02-base-and-this-keywords/
+│   ├── 03-Abstraction/
+│   │   └── Abstract-Classes-and-Interfaces/
+│   ├── 04-Polymorphism/
+│   │   ├── 01-Compile-Time/
+│   │   └── 02-Runtime/
+│   └── 05-Indexers/
+│
 ├── 📁 day4/                         ← Basic Data Structures
+│   ├── Arrays/
+│   │   ├── Single-Dimensional/
+│   │   ├── Array-Methods/
+│   │   ├── Array-Class/
+│   │   └── Multi-Dim-and-Jagged/
+│   ├── Strings/
+│   │   ├── String-Operations/
+│   │   ├── Interpolation/
+│   │   └── String-vs-StringBuilder/
+│   └── Tuples/
+│       └── Named-Tuples/
+│
 ├── 📁 day5/                         ← Generics
-├── 📁 day6/                         ← Collections
+│   ├── Generic-Classes/
+│   │        ├── Box<T>
+│   │        ├── Pair<TKey
+│   │        └── TValue>
+│   ├── Generic-Methods/
+│   │        ├── Explicit
+│   │        └── Type Inference
+│   └── Constraints/
+│            ├── class
+│            ├── struct
+│            ├── new()
+│            └── IComparable
+│
+├── 📁 day6/                         ← Collections/ Advance Data Structures
+│   ├── Non-Generic/                 
+│   │        ├── ArrayList
+│   │        ├── Hashtable
+│   │        ├── Queue
+│   │        └── Stack
+│   ├── Generic/                     
+│   │        ├── List<T>
+│   │        ├── Dictionary
+│   │        ├── HashSet
+│   │        └── LinkedList
+│   └── Specialized/                 
+│            └── Concurrent Collections
 │
 ├── 📁 day7/                         ← Exception & File Handling
 │   ├── Exception-Handling/
-│   │   ├── 01-try-catch-finally/
-│   │   ├── 02-throw-vs-throw-ex/
-│   │   ├── 03-Built-in-Exceptions/
-│   │   └── 04-Global-Exception-Handling/
 │   └── File-Handling/
-│       ├── 01-StreamReader-StreamWriter/
-│       ├── 02-File-and-Directory-Operations/
-│       └── 03-Async-File-Handling/
 │
 ├── 📁 day8/                         ← Expert I: Functional Programming & Delegates
 │   ├── Functional-Programming/
-│   │   ├── 01-Extension-Methods/
-│   │   ├── 02-Lambda-Expressions/
-│   │   ├── 03-LINQ/
-│   │   ├── 04-Pattern-Matching/
-│   │   └── 05-Immutability-PureFunctions-HOF/
 │   ├── Delegates/
-│   │   ├── 01-Action-Func-Predicate/
-│   │   └── 02-Anonymous-Methods/
 │   └── Events/
-│       └── 01-Events-and-Event-Handling/
 │
 ├── 📁 day9/                         ← Expert II: Multithreading, Async & Serialization
 │   ├── Multithreading/
@@ -995,17 +788,33 @@ csharp-learning/
 │       ├── 02-XML-Serialization/
 │       └── 03-Binary-Serialization/
 │
+├── 📁 day10/                        ← Expert III: Best Practices & Design Patterns
+│   ├── Best-Practices/
+│   │   ├── 01-Naming-Conventions/
+│   │   ├── 02-Clean-Code/
+│   │   ├── 03-Null-Safety/
+│   │   └── 04-Modern-CSharp-Features/
+│   └── SOLID-and-Design-Patterns/
+│       ├── 01-SOLID-Principles/
+│       │   ├── S-Single-Responsibility/
+│       │   ├── O-Open-Closed/
+│       │   ├── L-Liskov-Substitution/
+│       │   ├── I-Interface-Segregation/
+│       │   └── D-Dependency-Inversion/
+│       ├── 02-Creational-Patterns/
+│       │   ├── Singleton/
+│       │   ├── Factory-Method/
+│       │   └── Builder/
+│       ├── 03-Structural-Patterns/
+│       │   ├── Repository/
+│       │   └── Decorator/
+│       └── 04-Behavioral-Patterns/
+│           ├── Observer/
+│           ├── Strategy/
+│           └── Chain-of-Responsibility/
+│
 └── 📄 README.md
 ```
-
----
-
-## 🔜 Upcoming Topics
-
-| # | Topic | Key Concepts |
-|---|-------|-------------|
-| 10 | **Expert III** | Reflection · Attributes · Expression Trees · Source Generators |
-| 11 | **.NET Projects** | Console App · Web API · Entity Framework Core · Clean Architecture |
 
 ---
 
@@ -1049,6 +858,8 @@ Found a mistake? Have a better explanation?
 ---
 
 <div align="center">
+
+### 🏁 10 Days · Complete C# Interview Roadmap
 
 Made with ❤️ and ☕ by [Arvind Kumar](https://github.com/arvind01A)
 
