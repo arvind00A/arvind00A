@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7c3aed&height=200&section=header&text=Arvind%20Kumar&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=.NET%20Core%20+%7C+NodeJS%20Developer&descAlignY=58&descAlign=50&descColor=c4b5fd" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Hi+there!+I%27m+Arvind+Kumar+%F0%9F%91%8B;ASP.NET+Core+Developer;C%23+%7C+.NET+%7C+EF+Core+%7C+REST+API;NodeJS+Developer;C%23+JavaScript+%7C+TypeScript+%7C+ExpressJS+%7C+MVC+%7C+REST+API;Always+learning%2C+always+building..." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Hi+there!+I%27m+Arvind+Kumar+%F0%9F%91%8B;ASP.NET+Core+Developer;C%23+%7C+.NET+%7C+EF+Core+%7C+REST+API;NodeJS+Developer;JavaScript+%7C+TypeScript+%7C+ExpressJS+%7C+MVC;Always+learning%2C+always+building..." alt="Typing SVG" />
 
 <br/>
 
