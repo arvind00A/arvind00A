@@ -1,8 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7c3aed&height=200&section=header&text=Arvind%20Kumar&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=.NET%20Core%20+%7C+NodeJS%20Developer&descAlignY=58&descAlign=50&descColor=c4b5fd" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Hi+there!+I%27m+Arvind+Kumar+%F0%9F%91%8B;ASP.NET+Core+Developer;C%23+%7C+.NET+%7C+EF+Core+%7C+REST+API;NodeJS+Developer;JavaScript+%7C+TypeScript+%7C+ExpressJS+%7C+MVC;Always+learning%2C+always+building..." alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7c3aed&height=200&section=header&text=Arvind%20Kumar&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20.NET%20and%20JavaScript%20Ecosystem&descAlignY=58&descAlign=50&descColor=c4b5fd" width="100%"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Hi+there!+I%27m+Arvind+Kumar+%F0%9F%91%8B;Full-Stack+Developer;ASP.NET+Core+%7C+NodeJS+%7C+React;C%23+%7C+.NET+%7C+REST+API;JavaScript+%7C+TypeScript+%7C+ExpressJS;Always+learning%2C+always+building..." alt="Typing SVG" />
 
 <br/>
 
@@ -25,21 +24,23 @@
 var arvind = new Developer
 {
     Name         = "Arvind Kumar",
-    Role         = "ASP.NET Core Developer",
-    Language     = "C#",
-    Backend      = ".NET Core / ASP.NET Core",
-    Frontend     = "React / HTML / CSS / Bootstrap",
-    Database     = "SQL Server",
+    Role         = "Full-Stack Developer",
+    Languages    =  new[] { "C#", "JavaScript", "TypeScript" },
+    Backend      = ".NET Core / ASP.NET Core / NodeJS / ExpressJS",
+    Frontend     = "React / JavaScript / TypeScript / HTML / CSS",
+    Database     = "SQL Server / MongoDB / PostgreSQL / MySQL",
     Architecture = "Clean Architecture",
 
-    Goal = "Growing into a Full-Stack .NET Developer 🚀",
+    Goal = "Building scalable applications with .NET & JavaScript Ecosystem 🚀",
 
     CurrentFocus = new[]
     {
         "ASP.NET Core Web APIs",
-        "React Integration",
-        "Dapper & Entity Framework",
-        "System Design Fundamentals"
+        "NodeJS & Express APIs",
+        "React Frontend Development",
+        "MongoDB & SQL Optimization",
+        "System Design Fundamentals",
+        "Clean Architecture & Scalable Apps"
     },
 
     Email  = "arvind.kr0024@gmail.com",
@@ -56,6 +57,8 @@ var arvind = new Developer
 ### 💻 Languages
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -68,17 +71,19 @@ var arvind = new Developer
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![ASP.NET MVC](https://img.shields.io/badge/ASP.NET_MVC-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Dapper](https://img.shields.io/badge/Dapper-005571?style=for-the-badge&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logoColor=white)
 ![LINQ](https://img.shields.io/badge/LINQ-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![Multithreading](https://img.shields.io/badge/Multithreading-239120?style=for-the-badge&logo=csharp&logoColor=white)
-
+<br />
+![NodeJS](https://img.shields.io/badge/NodeJS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![ExpressJS](https://img.shields.io/badge/ExpressJS-000000?style=for-the-badge&logo=express&logoColor=white)
+![MVC](https://img.shields.io/badge/MVC-512BD4?style=for-the-badge&logo=.net&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ---
 
 ### 🎨 Frontend
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge&logo=bootstrap&logoColor=white)
@@ -92,6 +97,7 @@ var arvind = new Developer
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ---
 
@@ -117,7 +123,8 @@ var arvind = new Developer
 | 1 | Improve programming skills daily | 🔄 In Progress |
 | 2 | Build scalable real-world applications | 🔄 In Progress |
 | 3 | Contribute to open source projects | 🔄 In Progress |
-| 4 | Grow as a Full-Stack .NET Developer | 🎯 Target |
+| 4 | Grow as a Strong Full-Stack Developer | 🎯 Target |
+| 5 | Master Full-Stack Architecture (.NET + MERN) | 🚀 |
 
 ---
 
