@@ -1,7 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7c3aed&height=200&section=header&text=Arvind%20Kumar&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20.NET%20and%20JavaScript%20Ecosystem&descAlignY=58&descAlign=50&descColor=c4b5fd" width="100%"/>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Hi+there!+I%27m+Arvind+Kumar+%F0%9F%91%8B;Full-Stack+Developer;ASP.NET+Core+%7C+NodeJS+%7C+React;C%23+%7C+.NET+%7C+REST+API;JavaScript+%7C+TypeScript+%7C+ExpressJS;Always+learning%2C+always+building..." alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7c3aed&height=200&section=header&text=Arvind%20Kumar&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20.NET%20Developer&descAlignY=58&descAlign=50&descColor=c4b5fd" width="100%"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Hi+there!+I%27m+Arvind+Kumar+%F0%9F%91%8B;Full-Stack+.NET+Developer;ASP.NET+Core+%7C+NodeJS+%7C+React;C%23+%7C+.NET+%7C+REST+API;JavaScript+%7C+TypeScript+%7C+ExpressJS;Always+learning%2C+always+building..." alt="Typing SVG" />
 
 <br/>
 
@@ -24,7 +24,7 @@
 var arvind = new Developer
 {
     Name         = "Arvind Kumar",
-    Role         = "Full-Stack Developer",
+    Role         = "Full-Stack .NET Developer",
     Languages    =  new[] { "C#", "JavaScript", "TypeScript" },
     Backend      = ".NET Core / ASP.NET Core / NodeJS / ExpressJS",
     Frontend     = "React / JavaScript / TypeScript / HTML / CSS",
@@ -36,7 +36,7 @@ var arvind = new Developer
     CurrentFocus = new[]
     {
         "ASP.NET Core Web APIs",
-        "NodeJS & Express APIs",
+        "AI Intigration",
         "React Frontend Development",
         "MongoDB & SQL Optimization",
         "System Design Fundamentals",
